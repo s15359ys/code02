@@ -27,3 +27,8 @@ function A(a){
  var c = multiply(b,Math.PI);
  return c;
 }
+function C(a,b,c){
+ var d = Math.max(multiply(a,a),multiply(b,b),multiply(c,c));
+ var e = multiply(d,Math.PI);
+ return e;
+}
