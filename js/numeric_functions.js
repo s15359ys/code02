@@ -17,3 +17,8 @@ function divide(a, b){
 function mod(a, b){
   return a % b;
 }
+function R(a){
+ var b = multiply(2,a);
+ var c = multiply(b,Math.PI);
+ return c;
+}
