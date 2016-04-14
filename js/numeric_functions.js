@@ -22,3 +22,8 @@ function R(a){
  var c = multiply(b,Math.PI);
  return c;
 }
+function A(a){
+ var b = multiply(a,a);
+ var c = multiply(b,Math.PI);
+ return c;
+}
